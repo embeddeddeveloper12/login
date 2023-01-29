@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>log in page</title>
+        <style>
+            *{
+                background-color: rgba(141, 242, 242, 0.889);
+                padding: 2px;
+                background-color: black;
+
+            }
+            .fst{
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+                text-align: center;
+                font-size: 250%;
+                font-weight: bolder;
+                color: green;
+                border: 1px;
+                border-radius: 15px;
+                
+            }
+            .btn1{
+                text-align: center;
+                background-color: rgb(160, 147, 147);
+                border: 0px;
+                padding: 8px;
+                border-radius: 5px;
+                cursor: pointer;
+
+            }
+            .btn1:hover{
+                background-color: black;
+            }
+            input{
+                color: green;
+                font-family: 'Courier New', Courier, monospace;
+                
+            }
+            p{
+                padding: 5px;
+
+                font-weight: bold;
+                font-family: 'Courier New', Courier, monospace;
+                color: green;
+            }
+            select{
+                font-weight: bold;
+                font-family: 'Courier New', Courier, monospace;
+                color: green;
+            
+            }
+        </style>
+    </head>
+    <body>
+        <h2 class="fst"><table>Log in to Edit the Content of Site</table></h2>
+       <div class="one"> <form>
+        <p class="pa"> 
+            E-mail ID:<input type="email" required >
+            </p>
+            <p>
+                Password:<input type="password" required>
+            </p>
+            <input type="submit" value="log in" class="btn1">
+        </form>
+    </div>
+        <br>
+        <fieldset><legend style="color: green;"><b>OR</b></legend>
+        <form>
+            <p>
+                <b>Write to Admin</b>
+    
+            </p>
+            <p>
+                Name:<input type="text" required>
+            </p>
+            <p>
+                E-Mail:<input type="email" required>
+            </p>
+            <select required>
+                <option>--Select--</option>
+                <option>Induvidual</option>
+                <option>Company</option>
+                
+            </select>
+            <p>Message: <textarea>drop your message here</textarea>
+            </p>
+            <input  class="btn1"type="submit" value="Send">
+        </form>
+        </fieldset>
+        <br>
+        
+        </body>
+</html>
